@@ -282,9 +282,35 @@ init_mathjax();
 
             <article>
                 <h2><a href="./2016fallcpqi-mo-kao-zhou.html">2016fallcp期末考週</a></h2>
-                <div class="summary"><p>W17 週心得與程式範例:</p>
-<p>W16 週心得與程式範例:
+                <div class="summary"><p>W17 週心得與程式範例:放假!!</p>
+<p>W16 週心得與程式範例:學製作猜數字遊戲，寫程式雖然一開始不熟會花多時間，但學會之後可以應用在生活上，讓生活更方便</p>
+<!-- 導入 Brython 標準程式庫 -->
 
+<script type="text/javascript" 
+    src="https://cdn.rawgit.com/brython-dev/brython/master/www/src/brython_dist.js">
+</script>
+
+<!-- 啟動 Brython -->
+
+<script>
+window.onload=function(){
+brython(1);
+}
+</script>
+
+<!-- 以下可以執行  Brython 程式 -->
+
+<div id="id3"></div>
+
+<script type="text/python3">
+from browser import document
+from browser import html
+import random
+
+id3 = document["id3"]
+def guess(ev):
+    # 清除 id3 中的內容
+    id3 ...</script></!--></!--></!-->
                     <a class="btn btn-default btn-xs" href="./2016fallcpqi-mo-kao-zhou.html">more ...</a>
                 </div>
             </article>
